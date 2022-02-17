@@ -9,9 +9,6 @@ def test2():
     assert response.status_code == 200
     
     
-def test3():
-    response=app.test_client().get("/abcd")
-    assert b"My Daily Checklist" in response.data
-    assert b"Added Task" in response.data
+
     
     
