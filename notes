@@ -1,0 +1,7 @@
+
+python -m virtualenv pipeline
+
+pi@raspberrypi:~/projects/pipeline $ source bin/activate
+
+# remove the venv
+rm -rf pipeline
