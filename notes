@@ -5,3 +5,7 @@ pi@raspberrypi:~/projects/pipeline $ source bin/activate
 
 # remove the venv
 rm -rf pipeline
+
+
+# pull from remote and merge with remote changes
+https://stackoverflow.com/questions/21651185/git-merge-a-remote-branch-locally
